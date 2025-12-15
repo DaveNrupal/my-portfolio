@@ -1,8 +1,7 @@
 /* ============================================
-   GLOBAL STYLES & CSS RESET
+   GLOBAL STYLES & CSS RESET - GREEN/NATURE THEME
    ============================================ */
 
-/* CSS Reset - Removes default browser styling */
 *,
 *::before,
 *::after {
@@ -11,37 +10,40 @@
   box-sizing: border-box;
 }
 
-/* CSS Variables - Easy to customize color scheme */
 :root {
-  /* Primary Colors */
-  --primary-color: #6366f1;
-  --primary-dark: #4f46e5;
-  --primary-light: #818cf8;
+  /* Primary Green Colors */
+  --primary-color: #22c55e;
+  --primary-dark: #16a34a;
+  --primary-light: #4ade80;
   
-  /* Neutral Colors */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
+  /* Nature-Inspired Background Colors */
+  --bg-primary: #0f1f17;
+  --bg-secondary: #1a2f23;
+  --bg-tertiary: #2d4a3a;
   
   /* Text Colors */
-  --text-primary: #f8fafc;
-  --text-secondary: #94a3b8;
-  --text-muted: #64748b;
+  --text-primary: #f0fdf4;
+  --text-secondary: #a7c4b5;
+  --text-muted: #6b8f7a;
   
   /* Accent Colors */
-  --accent-green: #10b981;
-  --accent-yellow: #f59e0b;
-  --accent-red: #ef4444;
+  --accent-leaf: #84cc16;
+  --accent-mint: #10b981;
+  --accent-forest: #065f46;
+  --accent-gold: #eab308;
+  --accent-coral: #f97316;
   
   /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
-  --gradient-hero: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+  --gradient-primary: linear-gradient(135deg, #22c55e 0%, #10b981 50%, #14b8a6 100%);
+  --gradient-hero: linear-gradient(135deg, #0f1f17 0%, #1a2f23 50%, #0f1f17 100%);
+  --gradient-leaf: linear-gradient(135deg, #22c55e 0%, #84cc16 100%);
   
   /* Shadows */
-  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.15), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.15), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 10px 10px -5px rgba(0, 0, 0, 0.1);
+  --shadow-glow: 0 0 30px rgba(34, 197, 94, 0.3);
   
   /* Spacing */
   --section-padding: 100px 0;
@@ -52,6 +54,7 @@
   --radius-md: 8px;
   --radius-lg: 12px;
   --radius-xl: 16px;
+  --radius-2xl: 24px;
   
   /* Transitions */
   --transition-fast: 0.15s ease;
@@ -59,7 +62,6 @@
   --transition-slow: 0.5s ease;
 }
 
-/* Base HTML Styles */
 html {
   scroll-behavior: smooth;
   font-size: 16px;
@@ -74,7 +76,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.2;
@@ -96,7 +97,6 @@ a:hover {
   color: var(--primary-light);
 }
 
-/* Utility Classes */
 .section-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -124,7 +124,6 @@ a:hover {
   margin-right: auto;
 }
 
-/* Button Styles */
 .btn {
   display: inline-flex;
   align-items: center;
@@ -132,7 +131,7 @@ a:hover {
   padding: 12px 28px;
   font-size: 1rem;
   font-weight: 500;
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-lg);
   cursor: pointer;
   transition: all var(--transition-normal);
   border: none;
@@ -141,14 +140,15 @@ a:hover {
 
 .btn-primary {
   background: var(--gradient-primary);
-  color: white;
-  box-shadow: 0 4px 14px 0 rgba(99, 102, 241, 0.4);
+  color: #0f1f17;
+  font-weight: 600;
+  box-shadow: 0 4px 14px 0 rgba(34, 197, 94, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px 0 rgba(99, 102, 241, 0.5);
-  color: white;
+  box-shadow: 0 6px 20px 0 rgba(34, 197, 94, 0.5);
+  color: #0f1f17;
 }
 
 .btn-secondary {
@@ -159,7 +159,7 @@ a:hover {
 
 .btn-secondary:hover {
   background: var(--primary-color);
-  color: white;
+  color: #0f1f17;
 }
 
 .btn-large {
@@ -167,7 +167,6 @@ a:hover {
   font-size: 1.1rem;
 }
 
-/* Scrollbar Styling */
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -185,13 +184,11 @@ a:hover {
   background: var(--primary-color);
 }
 
-/* Selection Styling */
 ::selection {
   background: var(--primary-color);
-  color: white;
+  color: #0f1f17;
 }
 
-/* Responsive Typography */
 @media (max-width: 768px) {
   html {
     font-size: 14px;
