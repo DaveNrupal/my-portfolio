@@ -516,7 +516,7 @@ main {
 
 .contact {
   padding: var(--section-padding);
-  background: var(--bg-primary);
+  background: var(--bg-secondary);
 }
 
 .contact-content {
@@ -536,7 +536,7 @@ main {
   align-items: center;
   gap: 1rem;
   padding: 1.5rem;
-  background: var(--bg-secondary);
+  background: var(--bg-primary);
   border-radius: var(--radius-xl);
   border: 1px solid #e2e8f0;
   transition: all var(--transition-normal);
@@ -586,6 +586,91 @@ main {
 .contact-cta {
   text-align: center;
 }
+
+/* ============================================
+   EXPERIENCE SECTION
+============================================ */
+
+.experience {
+  padding: var(--section-padding);
+  background: var(--bg-primary);
+}
+
+.experience-timeline {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.experience-item {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.75rem;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-xl);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary-light);
+}
+
+.experience-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--gradient-primary);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #fff;
+}
+
+.experience-details {
+  flex: 1;
+}
+
+.experience-company {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+
+.experience-duration {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 0.25rem;
+  font-style: italic;
+}
+
+.experience-role {
+  font-size: 1.1rem;
+  margin: 0.25rem 0 0.75rem;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.experience-details ul {
+  padding-left: 1.1rem;
+  margin: 0;
+}
+
+.experience-details li {
+  margin-bottom: 0.5rem;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 
 /* ============================================
    FOOTER
