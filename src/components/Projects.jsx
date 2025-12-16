@@ -19,26 +19,6 @@ function Projects() {
         "Stripe payment integration",
         "Redux state management"
       ]
-    },
-    {
-      title: "E-commerce Platform",
-      description: "Led front-end development for a scalable e-commerce platform using modern architecture patterns. Implemented lazy loading, code splitting, and modular components.",
-      technologies: ["React.js", "TypeScript", "Tailwind CSS", "Express.js"],
-      highlights: [
-        "Scalable architecture",
-        "Performance optimization",
-        "WCAG 2.0 AA accessible"
-      ]
-    },
-    {
-      title: "Fintech Dashboard",
-      description: "Developed a responsive fintech dashboard with complex data visualization and real-time updates. Focused on accessibility and SEO optimization.",
-      technologies: ["React.js", "JavaScript", "CSS3", "REST APIs"],
-      highlights: [
-        "Data visualization",
-        "SEO optimized",
-        "Pixel-perfect UI"
-      ]
     }
   ]
 

@@ -6,20 +6,23 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate <strong>Web Engineer</strong> with 3.5 years of experience 
-              building responsive, performant, and scalable web applications. I specialize 
-              in React.js, TypeScript, and Redux, with a strong focus on creating reusable 
-              UI components and optimizing rendering performance.
+              I'm a passionate <strong>Full-Stack Developer</strong> with 3.5+ years of experience
+              building scalable, high-performance web applications across both frontend and backend.
+              I specialize in React.js, TypeScript, and modern JavaScript on the frontend, along with
+              Node.js and RESTful APIs on the backend.
             </p>
             <p>
-              My journey in web development has taken me through exciting projects in 
-              e-commerce and fintech platforms, where I've architected scalable frontend 
-              systems with modular components, lazy loading, and code splitting.
+              I have worked on end-to-end application development, from designing reusable UI
+              components and optimizing rendering performance to implementing secure APIs,
+              integrating databases, and handling authentication and business logic.
+              My experience includes e-commerce and fintech platforms where reliability,
+              performance, and scalability are critical.
             </p>
             <p>
-              I'm experienced in modern front-end development practices, including testing, 
-              accessibility (WCAG 2.0 AA), and CI/CD workflows. I believe in writing clean, 
-              maintainable code and collaborating effectively with cross-functional teams.
+              I follow best practices such as clean architecture, accessibility (WCAG 2.0 AA),
+              testing, and CI/CD workflows. I enjoy collaborating with cross-functional teams
+              and take ownership of features from concept to deployment, always aiming to
+              write clean, maintainable, and efficient code.
             </p>
             <div className="about-highlights">
               <div className="highlight">
@@ -27,8 +30,8 @@ function About() {
                 <span className="highlight-text">Years Experience</span>
               </div>
               <div className="highlight">
-                <span className="highlight-number">10+</span>
-                <span className="highlight-text">Projects Completed</span>
+                <span className="highlight-number">Full</span>
+                <span className="highlight-text">Stack Coverage</span>
               </div>
               <div className="highlight">
                 <span className="highlight-number">22%</span>

@@ -1,4 +1,8 @@
 function Contact() {
+  const email = "nrupal0401@gmail.com";
+  const subject = "Let's Connect";
+  const body = "Hello Nrupal,\n\nLet's connect and discuss future opportunities.";
+
   return (
     <section id="contact" className="contact">
       <div className="section-container">
@@ -61,9 +65,12 @@ function Contact() {
             </div>
           </div>
           <div className="contact-cta">
-            <a href="mailto:nrupal0401@gmail.com" className="btn btn-primary btn-large">
+            <button className="btn btn-primary btn-large" 
+            onClick={() => window.location.href = `mailto:${email}?subject=${encodeURIComponent(
+            subject
+            )}&body=${encodeURIComponent(body)}`}>
               Send Me an Email
-            </a>
+            </button>
           </div>
         </div>
       </div>

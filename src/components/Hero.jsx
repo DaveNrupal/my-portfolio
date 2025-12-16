@@ -6,13 +6,11 @@ function Hero() {
         <h1 className="hero-name">Nrupal Dave</h1>
         <h2 className="hero-role">Web Engineer</h2>
         <p className="hero-description">
-          Building responsive, performant, and scalable web applications 
-          with 3.5+ years of experience in React.js, TypeScript, and modern 
-          front-end technologies.
+          Building end-to-end web experiences with modern technologies. From pixel-perfect UIs to scalable backend architectures.
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View My Work</a>
-          <a href="#contact" className="btn btn-secondary">Get In Touch</a>
+          <a href="#contact" className="btn btn-secondary">Hire Me!</a>
         </div>
         <div className="hero-location">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
