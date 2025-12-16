@@ -4,7 +4,7 @@ function Hero() {
       <div className="hero-content">
         <p className="hero-greeting">Hello, I'm</p>
         <h1 className="hero-name">Nrupal Dave</h1>
-        <h2 className="hero-role">Web Engineer</h2>
+        <h2 className="hero-role">Full Stack Developer</h2>
         <p className="hero-description">
           Building end-to-end web experiences with modern technologies. From pixel-perfect UIs to scalable backend architectures.
         </p>
