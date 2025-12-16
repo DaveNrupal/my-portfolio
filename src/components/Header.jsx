@@ -36,6 +36,7 @@ function Header() {
             <li><a href="#projects" onClick={closeMenu}>Projects</a></li>
             <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
             <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+            <li><a href="/NrupalResume.pdf" onClick={closeMenu}>My Resume</a></li>
           </ul>
         </nav>
       </div>
