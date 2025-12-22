@@ -6,19 +6,18 @@ function Skills() {
         { name: "React.js"},
         { name: "TypeScript"},
         { name: "JavaScript (ES6+)"},
-        { name: "HTML5"},
-        { name: "CSS3"},
-        { name: "Redux"},
+        { name: "Redux / Mobex"},
         { name: "Next.js"},
-        { name: "Tailwind CSS"}
+        { name: "PHP"},
       ]
     },
     {
       title: "Backend",
       skills: [
         { name: "Node.js"},
+        { name: "Python"},
         { name: "Express.js"},
-        { name: "RESTful APIs"},
+        { name: "RESTful & GraphQL APIs"},
         { name: "MongoDB"},
         { name: "PostgreSQL"}
       ]
@@ -28,6 +27,8 @@ function Skills() {
       skills: [
         { name: "Git & GitHub"},
         { name: "Webpack"},
+        { name: "Netlify"},
+        { name: "Vite"},
         { name: "Jest"},
         { name: "React Testing Library"},
         { name: "Cypress"},
