@@ -3,35 +3,35 @@ function Skills() {
     {
       title: "Frontend",
       skills: [
-        { name: "React.js", level: 95 },
-        { name: "TypeScript", level: 90 },
-        { name: "JavaScript (ES6+)", level: 95 },
-        { name: "HTML5", level: 95 },
-        { name: "CSS3", level: 90 },
-        { name: "Redux", level: 85 },
-        { name: "Next.js", level: 80 },
-        { name: "Tailwind CSS", level: 85 }
+        { name: "React.js"},
+        { name: "TypeScript"},
+        { name: "JavaScript (ES6+)"},
+        { name: "HTML5"},
+        { name: "CSS3"},
+        { name: "Redux"},
+        { name: "Next.js"},
+        { name: "Tailwind CSS"}
       ]
     },
     {
       title: "Backend",
       skills: [
-        { name: "Node.js", level: 80 },
-        { name: "Express.js", level: 80 },
-        { name: "RESTful APIs", level: 85 },
-        { name: "MongoDB", level: 75 },
-        { name: "PostgreSQL", level: 70 }
+        { name: "Node.js"},
+        { name: "Express.js"},
+        { name: "RESTful APIs"},
+        { name: "MongoDB"},
+        { name: "PostgreSQL"}
       ]
     },
     {
       title: "Tools & Testing",
       skills: [
-        { name: "Git & GitHub", level: 90 },
-        { name: "Webpack", level: 80 },
-        { name: "Jest", level: 85 },
-        { name: "React Testing Library", level: 85 },
-        { name: "Cypress", level: 75 },
-        { name: "CI/CD", level: 80 }
+        { name: "Git & GitHub"},
+        { name: "Webpack"},
+        { name: "Jest"},
+        { name: "React Testing Library"},
+        { name: "Cypress"},
+        { name: "CI/CD"}
       ]
     }
   ]
@@ -50,16 +50,7 @@ function Skills() {
               <div className="skill-list">
                 {category.skills.map((skill, skillIndex) => (
                   <div key={skillIndex} className="skill-item">
-                    <div className="skill-header">
-                      <span className="skill-name">{skill.name}</span>
-                      <span className="skill-level">{skill.level}%</span>
-                    </div>
-                    <div className="skill-bar">
-                      <div 
-                        className="skill-progress" 
-                        style={{ width: `${skill.level}%` }}
-                      ></div>
-                    </div>
+                    <span className="skill-name">{skill.name}</span>
                   </div>
                 ))}
               </div>

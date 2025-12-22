@@ -239,6 +239,19 @@ main {
   font-size: 1.05rem;
 }
 
+.about-bullets {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+}
+
+.about-bullets p {
+  margin: 0;
+  font-size: 1rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
 .about-text strong {
   color: var(--primary-color);
   font-weight: 600;
@@ -369,36 +382,15 @@ main {
   gap: 1.25rem;
 }
 
-.skill-header {
+.skill-item {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.5rem;
+  align-items: center;
 }
 
 .skill-name {
   font-weight: 500;
   color: var(--text-primary);
   font-size: 0.95rem;
-}
-
-.skill-level {
-  color: var(--primary-color);
-  font-size: 0.875rem;
-  font-weight: 600;
-}
-
-.skill-bar {
-  height: 8px;
-  background: #e2e8f0;
-  border-radius: var(--radius-full);
-  overflow: hidden;
-}
-
-.skill-progress {
-  height: 100%;
-  background: var(--gradient-primary);
-  border-radius: var(--radius-full);
-  transition: width 1s ease;
 }
 
 /* ============================================
