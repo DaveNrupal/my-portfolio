@@ -2,107 +2,111 @@ function Experience() {
   return (
     <section id="experience" className="experience">
       <div className="section-container">
-        <h2 className="section-title">Experience</h2>
-        <p className="section-subtitle">
-          3.5+ years of professional experience building scalable web
-          applications
-        </p>
+        <div className="experience-header">
+          <h2 className="section-title">Experience</h2>
+          <p className="section-subtitle">
+            3.5+ years building production web applications across React and backend services
+          </p>
+        </div>
 
         <div className="experience-timeline">
           {/* Experience 1 */}
-          <div className="experience-item">
-            <div className="experience-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="22"
-                height="22"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                <path d="M16 3h-8v4h8V3z"></path>
-              </svg>
+          <article className="experience-item">
+            <div className="experience-rail" aria-hidden="true">
+              <span className="experience-dot"></span>
             </div>
 
-            <div className="experience-details">
-              <span className="experience-company">
-                Trailblazer Solution
-              </span>
-              <span className="experience-duration">May 2025 - Sep 2025</span>
-              <h3 className="experience-role">Full Stack Developer</h3>
+            <div className="experience-card">
+              <div className="experience-top">
+                <div className="experience-meta">
+                  <span className="experience-company">Trailblazer Solution</span>
+                  <span className="experience-sep">•</span>
+                  <span className="experience-duration">May 2025 – Sep 2025</span>
+                </div>
 
-              <ul>
+                <div className="experience-role-row">
+                  <h3 className="experience-role">Full Stack Developer</h3>
+
+                  <div className="experience-tags" aria-label="Tech stack">
+                    <span className="experience-tag">React</span>
+                    <span className="experience-tag">TypeScript</span>
+                    <span className="experience-tag">Node.js</span>
+                    <span className="experience-tag">MongoDB</span>
+                    <span className="experience-tag">Jest</span>
+                    <span className="experience-tag">Playwright</span>
+                  </div>
+                </div>
+              </div>
+
+              <ul className="experience-points">
                 <li>
-                  Developed responsive features using <strong>React.js</strong>{" "}
-                  and <strong>TypeScript</strong>, improving load speed by{" "}
-                  <strong>22%</strong>
+                  Delivered responsive UI features in <strong>React</strong> +{" "}
+                  <strong>TypeScript</strong>, improving load speed by{" "}
+                  <strong>22%</strong>.
                 </li>
                 <li>
-                  Integrated <strong>Node.js</strong> &{" "}
-                  <strong>MongoDB</strong> APIs, reducing response time by{" "}
-                  <strong>17%</strong>
+                  Integrated <strong>Node.js</strong> services with{" "}
+                  <strong>MongoDB</strong>, reducing API response time by{" "}
+                  <strong>17%</strong>.
                 </li>
                 <li>
-                  Implemented automated testing using{" "}
-                  <strong>Jest</strong> and{" "}
-                  <strong>Playwright</strong>
+                  Implemented automated test coverage using <strong>Jest</strong>{" "}
+                  and <strong>Playwright</strong> to reduce regressions.
                 </li>
                 <li>
-                  Resolved production issues, reducing user-reported bugs by{" "}
-                  <strong>32%</strong>
+                  Resolved production issues and improved stability, reducing
+                  user-reported bugs by <strong>32%</strong>.
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
 
           {/* Experience 2 */}
-          <div className="experience-item">
-            <div className="experience-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="22"
-                height="22"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
-                <path d="M16 3h-8v4h8V3z"></path>
-              </svg>
+          <article className="experience-item">
+            <div className="experience-rail" aria-hidden="true">
+              <span className="experience-dot"></span>
             </div>
 
-            <div className="experience-details">
-              <span className="experience-company">
-                Sysbioz Solutions
-              </span>
-              <span className="experience-duration">June 2021 - July 2024</span>
-              <h3 className="experience-role">MERN Stack Developer</h3>
+            <div className="experience-card">
+              <div className="experience-top">
+                <div className="experience-meta">
+                  <span className="experience-company">Sysbioz Solutions</span>
+                  <span className="experience-sep">•</span>
+                  <span className="experience-duration">Jun 2021 – Jul 2024</span>
+                </div>
 
-              <ul>
+                <div className="experience-role-row">
+                  <h3 className="experience-role">MERN Stack Developer</h3>
+
+                  <div className="experience-tags" aria-label="Tech stack">
+                    <span className="experience-tag">React</span>
+                    <span className="experience-tag">JavaScript</span>
+                    <span className="experience-tag">Node.js</span>
+                    <span className="experience-tag">REST APIs</span>
+                    <span className="experience-tag">PostgreSQL</span>
+                    <span className="experience-tag">MongoDB</span>
+                  </div>
+                </div>
+              </div>
+
+              <ul className="experience-points">
                 <li>
-                  Led frontend development for <strong>e-commerce</strong> and{" "}
-                  <strong>fintech</strong> platforms
+                  Led frontend delivery for <strong>e-commerce</strong> and{" "}
+                  <strong>fintech</strong> dashboards with scalable UI components.
                 </li>
                 <li>
-                  Built scalable UI architecture with modular components and
-                  lazy loading
+                  Improved performance with modular architecture, lazy loading,
+                  and reusable components.
                 </li>
                 <li>
-                  Defined RESTful API contracts with backend teams
+                  Defined REST API contracts and collaborated closely with backend teams.
                 </li>
                 <li>
-                  Created unit & integration tests ensuring high reliability
+                  Built unit and integration tests to improve reliability and reduce defects.
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </section>
