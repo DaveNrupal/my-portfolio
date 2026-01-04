@@ -666,13 +666,19 @@ main {
   background: var(--bg-secondary);
 }
 
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+.projects-slider {
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+}
+
+.projects-track {
+  display: flex;
+  transition: transform 600ms ease;
 }
 
 .project-card {
+  flex: 0 0 100%;
+  width: 100%;
   background: var(--bg-primary);
   padding: 2rem;
   border-radius: var(--radius-xl);
@@ -751,6 +757,18 @@ main {
   gap: 0.5rem;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.25rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.project-link:hover {
+  color: var(--primary-dark);
+}
+
 .tech-tag {
   background: var(--bg-tertiary);
   color: var(--text-secondary);
@@ -764,6 +782,45 @@ main {
 .tech-tag:hover {
   background: var(--primary-color);
   color: white;
+}
+
+.projects-dots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 1.5rem;
+}
+
+.project-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgb(6, 6, 227);
+  background: transparent;
+  cursor: pointer;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.project-dot:hover {
+  transform: scale(1.1);
+  border-color: var(--primary-color);
+}
+
+.project-dot.active {
+  background: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: scale(1.15);
+}
+
+.project-dot:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary-color) 18%, transparent);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .projects-track {
+    transition: none;
+  }
 }
 
 /* ============================================
@@ -1254,11 +1311,7 @@ main {
   .skills-grid {
     grid-template-columns: 1fr;
   }
-  
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-  
+
   .about-highlights {
     grid-template-columns: 1fr;
   }
