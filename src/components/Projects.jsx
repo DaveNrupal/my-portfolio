@@ -24,6 +24,17 @@ function Projects() {
         "Browse Jobs"
       ]
     },
+     {
+      title: "Random Password Generator",
+      description: "Full-stack app that generates random passwords, stores them encrypted, and decrypts on demand.",
+      technologies: ["React.js", "Mongo DB", "NodeJs", "ExpressJS", "REST APIs"],
+      github: "https://github.com/DaveNrupal/RandomPasswordGenerator",
+      highlights: [
+        "Generate Random Passwords",
+        "Store Encrypted Passwords",
+        "Decrypt Passwords on Demand"
+      ]
+    },
     {
       title: "Corporate Security Enhancement",
       description: "An IoT-based security monitoring system integrating ReactJS and IoT devices. Implemented API integrations for real-time data tracking and analysis with optimized front-end experience.",
