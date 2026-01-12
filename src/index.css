@@ -17,8 +17,12 @@
   --primary-light: #60a5fa;
   
   /* Light Background Colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8fafc;
+  --bg-primary: linear-gradient(
+  180deg,
+  #ffffff 0%,
+  #f8fafc 100%
+);
+  --bg-secondary: #f3f5f7;
   --bg-tertiary: #f1f5f9;
   --bg-card: #ffffff;
   

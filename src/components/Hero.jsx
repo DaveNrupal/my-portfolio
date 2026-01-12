@@ -24,10 +24,9 @@ function Hero() {
         </div>
       </div>
 
-      {/* RIGHT CONTENT – AVATAR */}
       <div className="hero-visual">
         <img
-          src="avatar2.png"
+          src="formalImage3.png"
           alt="Illustrated portrait of Nrupal Dave"
           className="hero-blend-avatar"
         />
