@@ -25,11 +25,13 @@ function Hero() {
       </div>
 
       <div className="hero-visual">
-        <img
-          src="formalImage3.png"
-          alt="Illustrated portrait of Nrupal Dave"
-          className="hero-blend-avatar"
-        />
+        <div className="hero-photo-wrap">
+          <img
+            src="formalImage.png"
+            alt="Nrupal Dave"
+            className="hero-photo"
+          />
+        </div>
       </div>
     </section>
   );
