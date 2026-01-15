@@ -4,11 +4,6 @@ function About() {
       <div className="section-container">
         <div className="about-header">
           <h2 className="section-title">About</h2>
-          <p className="about-lead">
-            Full-stack developer focused on building reliable React experiences
-            and scalable APIs. I care about clean architecture, performance, and
-            accessible UI.
-          </p>
         </div>
 
         <div className="about-content">

@@ -5,13 +5,13 @@ function Hero() {
         <p className="hero-kicker">React • Full-Stack • Toronto</p>
 
         <h1 className="hero-title">
-          Building modern web applications with clean UI and reliable APIs.
+          Full-stack dev bridging the gap between rapid feature shipping and
+          long-term architectural stability, informed by experience in tech hubs.
         </h1>
 
         <p className="hero-description">
-          I’m Nrupal Dave - a full-stack developer focused on React interfaces,
-          performance, and maintainable code. I enjoy shipping polished
-          experiences that work well across devices.
+          Modern web development is complex; I use AI to simplify the process
+          while keeping quality high.
         </p>
 
         <div className="hero-buttons">
@@ -26,11 +26,7 @@ function Hero() {
 
       <div className="hero-visual">
         <div className="hero-photo-wrap">
-          <img
-            src="formalImage.png"
-            alt="Nrupal Dave"
-            className="hero-photo"
-          />
+          <img src="formalImage.png" alt="Nrupal Dave" className="hero-photo" />
         </div>
       </div>
     </section>
