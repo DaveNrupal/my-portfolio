@@ -5,7 +5,7 @@ function Hero() {
         <p className="hero-kicker">React • Full-Stack • Toronto</p>
 
         <h1 className="hero-title">
-          Full-stack dev bridging the gap between rapid feature shipping and
+          Full-stack developer bridging the gap between rapid feature shipping and
           long-term architectural stability, informed by experience in tech hubs.
         </h1>
 
