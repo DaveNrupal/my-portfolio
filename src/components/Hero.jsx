@@ -5,13 +5,14 @@ function Hero() {
         <p className="hero-kicker">React • Full-Stack • Toronto</p>
 
         <h1 className="hero-title">
-          Full-stack developer bridging the gap between rapid feature shipping and
-          long-term architectural stability, informed by experience in tech hubs.
+          Clean frontend architecture. Robust backend logic. Software that
+          scales.
         </h1>
 
         <p className="hero-description">
-          Modern web development is complex; I use AI to simplify the process
-          while keeping quality high.
+          I design maintainable React systems and dependable APIs with a strong
+          testing mindset. I integrate AI into my workflow to accelerate
+          delivery while keeping architecture and quality standards high.
         </p>
 
         <div className="hero-buttons">
