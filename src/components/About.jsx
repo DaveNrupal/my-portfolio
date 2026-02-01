@@ -7,80 +7,62 @@ function About() {
         </div>
 
         <div className="about-content">
-          {/* Left: checklist */}
+          {/* LEFT: Principles */}
           <div className="about-card">
-            <h3 className="about-card-title">What I do</h3>
+            <h3 className="about-card-title">How I Work</h3>
 
             <ul className="about-list">
               <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
+                <span className="about-checkbox" aria-hidden="true" />
                 <span className="about-item-text">
-                  3.5+ years building scalable web applications across frontend
-                  and backend
+                  <strong>Product-first thinking:</strong> I don’t just build features, I dig into the
+                  “why” and translate technical requirements into intuitive UX.
                 </span>
               </li>
 
               <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
+                <span className="about-checkbox" aria-hidden="true" />
                 <span className="about-item-text">
-                  React.js, TypeScript, Node.js and REST API design
+                  <strong>Engineering for growth:</strong> I design modular systems that support rapid iteration
+                  without accumulating unnecessary technical debt.
                 </span>
               </li>
 
               <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
+                <span className="about-checkbox" aria-hidden="true" />
                 <span className="about-item-text">
-                  Performance optimization and maintainable component
-                  architecture
-                </span>
-              </li>
-
-              <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
-                <span className="about-item-text">
-                  Authentication, database design, and CI/CD workflows
-                </span>
-              </li>
-
-              <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
-                <span className="about-item-text">
-                  Experience in e-commerce and fintech products
-                </span>
-              </li>
-
-              <li>
-                <span className="about-checkbox" aria-hidden="true"></span>
-                <span className="about-item-text">
-                  Accessibility (WCAG) and testing mindset
+                  <strong>Full-cycle ownership:</strong> From database schema to final UI polish, I’m comfortable
+                  owning the whole lifecycle - APIs, performance, and frontend details.
                 </span>
               </li>
             </ul>
           </div>
 
-          {/* Right: metrics */}
-          <div className="about-card about-metrics">
-            <h3 className="about-card-title">Highlights</h3>
+          {/* RIGHT: Highlights */}
+          <div className="about-card">
+            <h3 className="about-card-title">What you can expect</h3>
 
             <div className="about-highlights">
               <div className="highlight">
                 <span className="highlight-number">3.5+</span>
-                <span className="highlight-text">Years experience</span>
+                <span className="highlight-text">Years Experience</span>
               </div>
+
               <div className="highlight">
-                <span className="highlight-number">Full</span>
-                <span className="highlight-text">Stack coverage</span>
+                <span className="highlight-number">React</span>
+                <span className="highlight-text">UI Architecture</span>
               </div>
+
               <div className="highlight">
-                <span className="highlight-number">22%</span>
-                <span className="highlight-text">Perf improvement</span>
+                <span className="highlight-number">APIs</span>
+                <span className="highlight-text">Performance + Reliability</span>
               </div>
             </div>
 
-            <div className="about-note">
-              <span className="about-note-label">Open to:</span>
-              Full-time roles (React / Frontend / Full-stack)
-            </div>
+            <p className="about-note">
+              <span className="about-note-label">Working style:</span>
+              I communicate early, document decisions, and prefer small iterative releases over “big bang” changes.
+            </p>
           </div>
         </div>
       </div>
