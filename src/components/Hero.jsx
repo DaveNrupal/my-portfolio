@@ -11,7 +11,7 @@ function Hero() {
         </h1>
 
         <p className="hero-description">
-          I’m a Full-Stack Developer based in Toronto who believes that code is
+          I’m a Full-Stack Developer based in Kitchener who believes that code is
           a tool for solving business problems, not just a skill. While I’m
           obsessed with performance optimization, I’m even more focused on how
           that code impacts the end-user and the bottom line.
